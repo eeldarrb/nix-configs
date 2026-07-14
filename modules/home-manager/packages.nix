@@ -14,5 +14,7 @@
     zoxide
     pi-coding-agent
     claude-code
+    bat
+    fd
   ];
 }
