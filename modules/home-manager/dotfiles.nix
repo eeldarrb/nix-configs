@@ -14,6 +14,7 @@ in
     "alacritty".source = link "alacritty";
     "tmux/tmux.conf".source = link "tmux/tmux.conf";
   } // lib.optionalAttrs pkgs.stdenv.isDarwin {
-    "karabiner/karabiner.json".source = link "karabiner/karabiner.json";
+    # symlink dir (Karabiner-Elements removes file-level symlink when modifying config)
+    "karabiner".source = link "karabiner";
   };
 }
