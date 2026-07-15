@@ -22,6 +22,7 @@
       "maccy"
       "docker-desktop"
       "karabiner-elements"
+      "google-chrome"
     ];
 
     brews = [
