@@ -16,5 +16,6 @@
     claude-code
     bat
     fd
+    just
   ];
 }
