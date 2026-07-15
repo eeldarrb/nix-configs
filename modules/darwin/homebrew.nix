@@ -16,13 +16,6 @@
     onActivation.autoUpdate = false;
     onActivation.upgrade = false;
 
-    taps = [
-      {
-        name = "jundot/omlx";
-        clone_target = "https://github.com/jundot/omlx";
-      }
-    ];
-
     casks = [
       "alacritty"
       "rectangle"
