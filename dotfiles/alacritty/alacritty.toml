@@ -1,9 +1,6 @@
 [general]
 import = ["~/.config/alacritty/themes/ember.toml"]
 
-[env]
-TERM = "xterm-256color"
-
 [window]
 # MacOS rebind left alt to meta
 option_as_alt = "Both"
