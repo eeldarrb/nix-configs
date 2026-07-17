@@ -17,5 +17,8 @@
     bat
     fd
     just
+    # https://ghostty.org/docs/install/binary
+    # There's a separate package for Ghossty on macOS.
+    (if stdenv.isDarwin then ghostty-bin else ghostty)
   ];
 }
