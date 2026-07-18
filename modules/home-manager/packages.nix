@@ -12,7 +12,6 @@
     neovim
     tmux
     zoxide
-    pi-coding-agent
     claude-code
     bat
     fd
