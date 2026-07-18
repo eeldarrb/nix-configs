@@ -17,7 +17,6 @@
     onActivation.upgrade = false;
 
     casks = [
-      "alacritty"
       "rectangle"
       "maccy"
       "docker-desktop"

@@ -26,4 +26,4 @@ sudo nix run nix-darwin/master#darwin-rebuild -- switch --flake .#home
 
 ## Dotfiles
 
-Raw configs (nvim, tmux, zsh, alacritty, karabiner) live in `dotfiles/` and are symlinked.
+Raw configs (nvim, tmux, zsh, ghostty, karabiner) live in `dotfiles/` and are symlinked.

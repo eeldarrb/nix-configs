@@ -11,7 +11,6 @@ in
 
   xdg.configFile = {
     "nvim".source = link "nvim";
-    "alacritty".source = link "alacritty";
     "ghostty".source = ../../dotfiles/ghostty;
     "tmux/tmux.conf".source = link "tmux/tmux.conf";
   } // lib.optionalAttrs pkgs.stdenv.isDarwin {
