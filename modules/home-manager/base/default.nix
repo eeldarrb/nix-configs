@@ -4,7 +4,8 @@
   imports = [
     ./packages.nix
     ./git.nix
-    ./dotfiles.nix
+    ./zsh.nix
+    ./tmux.nix
   ];
 
   home.stateVersion = "26.05";

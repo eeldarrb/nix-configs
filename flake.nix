@@ -16,7 +16,7 @@
   outputs = inputs@{ self, nix-darwin, nixpkgs, home-manager, nix-homebrew }:
   let
     #   $ darwin-rebuild switch --flake .
-    mkDarwin = { host, username, system ? "aarch64-darwin" }:
+    mkDarwin = { host, username, system ? "aarch64-darwin", profiles ? [ ] }:
       nix-darwin.lib.darwinSystem {
         specialArgs = { inherit inputs username host system; };
         modules = [
@@ -32,9 +32,9 @@
               useUserPackages = true;
               extraSpecialArgs = { inherit inputs username; };
               users.${username}.imports = [
-                ./modules/home-manager
+                ./modules/home-manager/base
                 ./hosts/${host}/home-manager.nix
-              ];
+              ] ++ map (p: ./modules/home-manager/${p}) profiles;
               backupFileExtension = "bak";
             };
           }
@@ -47,10 +47,12 @@
       home = mkDarwin {
         host = "home";
         username = "bradleylam";
+        profiles = [ "dev" "desktop" ];
       };
       work = mkDarwin {
         host = "work";
         username = "bradleylam";
+        profiles = [ "dev" "desktop" ];
       };
     };
   };
