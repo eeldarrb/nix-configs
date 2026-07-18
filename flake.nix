@@ -48,6 +48,10 @@
         host = "home";
         username = "bradleylam";
       };
+      work = mkDarwin {
+        host = "work";
+        username = "bradleylam";
+      };
     };
   };
 }
