@@ -21,7 +21,7 @@ cd nix-configs
 3. Run the first switch with an explicit host (hostname auto-discovery only works after this renames the machine):
 
 ```sh
-sudo nix run nix-darwin/master#darwin-rebuild -- switch --flake .#home
+sudo nix run nix-darwin/master#darwin-rebuild -- switch --flake .#m4-pro
 ```
 
 ## Dotfiles

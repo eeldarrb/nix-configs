@@ -46,14 +46,14 @@
   in
   {
     darwinConfigurations = {
-      home = mkDarwin {
-        host = "home";
+      m4-pro = mkDarwin {
+        host = "m4-pro";
         username = "bradleylam";
         profiles = [ "dev" "desktop" ];
         identity = "personal";
       };
-      work = mkDarwin {
-        host = "work";
+      m2-air = mkDarwin {
+        host = "m2-air";
         username = "bradleylam";
         profiles = [ "dev" "desktop" ];
         identity = "work";
