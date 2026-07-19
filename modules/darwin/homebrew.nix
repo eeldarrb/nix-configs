@@ -17,7 +17,6 @@
     onActivation.upgrade = false;
 
     casks = [
-      "rectangle"
       "maccy"
       "docker-desktop"
       "karabiner-elements"
