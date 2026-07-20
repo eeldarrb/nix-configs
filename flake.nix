@@ -45,6 +45,8 @@
 
   in
   {
+    formatter.aarch64-darwin = nixpkgs.legacyPackages.aarch64-darwin.nixfmt-tree;
+
     darwinConfigurations = {
       m4-pro = mkDarwin {
         host = "m4-pro";
