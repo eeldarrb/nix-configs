@@ -27,12 +27,26 @@
           # ⇧⌘4  -> copy selected area to the clipboard
           "31" = {
             enabled = 1;
-            value = { type = "standard"; parameters = [ 52 21 1179648 ]; };
+            value = {
+              type = "standard";
+              parameters = [
+                52
+                21
+                1179648
+              ];
+            };
           };
           # ⌃⇧⌘4 -> save selected area to a file
           "30" = {
             enabled = 1;
-            value = { type = "standard"; parameters = [ 52 21 1441792 ]; };
+            value = {
+              type = "standard";
+              parameters = [
+                52
+                21
+                1441792
+              ];
+            };
           };
         };
       };

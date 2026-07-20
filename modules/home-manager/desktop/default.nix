@@ -1,4 +1,9 @@
-{ pkgs, config, lib, ... }:
+{
+  pkgs,
+  config,
+  lib,
+  ...
+}:
 
 {
   home.packages = with pkgs; [
@@ -10,9 +15,10 @@
 
   xdg.configFile = {
     "ghostty".source = ../../../dotfiles/ghostty;
-  } // lib.optionalAttrs pkgs.stdenv.isDarwin {
+  }
+  // lib.optionalAttrs pkgs.stdenv.isDarwin {
     # symlink dir (Karabiner-Elements removes file-level symlink when modifying config)
-    "karabiner".source = config.lib.file.mkOutOfStoreSymlink
-      "${config.home.homeDirectory}/repos/nix-configs/dotfiles/karabiner";
+    "karabiner".source =
+      config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/repos/nix-configs/dotfiles/karabiner";
   };
 }

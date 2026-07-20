@@ -14,10 +14,22 @@
 
     # modifierFlags 786432 = ctrl+opt
     # h, j, k, l
-    leftHalf = { keyCode = 4; modifierFlags = 786432; };
-    centerHalf = { keyCode = 38; modifierFlags = 786432; };
-    maximize = { keyCode = 40; modifierFlags = 786432; };
-    rightHalf = { keyCode = 37; modifierFlags = 786432; };
+    leftHalf = {
+      keyCode = 4;
+      modifierFlags = 786432;
+    };
+    centerHalf = {
+      keyCode = 38;
+      modifierFlags = 786432;
+    };
+    maximize = {
+      keyCode = 40;
+      modifierFlags = 786432;
+    };
+    rightHalf = {
+      keyCode = 37;
+      modifierFlags = 786432;
+    };
 
     toggleTodo = { };
     reflowTodo = { };
