@@ -28,6 +28,7 @@
   "persistence.nvim": { "branch": "main", "commit": "b20b2a7887bd39c1a356980b45e03250f3dce49c" },
   "pi.nvim": { "branch": "main", "commit": "9b619b4f9fb96fa4dc1a6a7776a651980cd819a0" },
   "plenary.nvim": { "branch": "master", "commit": "74b06c6c75e4eeb3108ec01852001636d85a932b" },
+  "smart-paste.nvim": { "branch": "main", "commit": "bb46e9a06a728d65f004ad709ff7ee0249717e5e" },
   "smart-splits.nvim": { "branch": "master", "commit": "9493405fb8ee683aa6efd50c529f6296ad8f40ad" },
   "snacks.nvim": { "branch": "main", "commit": "882c996cf28183f4d63640de0b4c02ec886d01f2" },
   "todo-comments.nvim": { "branch": "main", "commit": "31e3c38ce9b29781e4422fc0322eb0a21f4e8668" },
