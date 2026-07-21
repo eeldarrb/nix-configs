@@ -7,5 +7,6 @@
     uv
     just
     claude-code
+    tealdeer
   ];
 }
