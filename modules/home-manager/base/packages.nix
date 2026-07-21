@@ -8,5 +8,6 @@
     bat
     fd
     zoxide
+    fzf
   ];
 }
