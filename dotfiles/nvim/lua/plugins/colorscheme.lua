@@ -2,15 +2,6 @@ local xcode_dir = (vim.env.XDG_DATA_HOME or vim.env.HOME .. "/.local/share") .. 
 
 return {
   -- {
-  --   "webhooked/kanso.nvim",
-  --   lazy = false,
-  --   priority = 1000,
-  --   opts = {
-  --     theme = "zen",
-  --   },
-  -- },
-
-  -- {
   --   "AlexvZyl/nordic.nvim",
   --   lazy = false,
   --   priority = 1000,
