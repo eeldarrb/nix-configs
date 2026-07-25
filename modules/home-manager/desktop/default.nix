@@ -14,7 +14,10 @@
   ];
 
   xdg.configFile = {
-    "ghostty".source = ../../../dotfiles/ghostty;
+    "ghostty" = {
+      source = ../../../dotfiles/ghostty;
+      recursive = true;
+    };
   }
   // lib.optionalAttrs pkgs.stdenv.isDarwin {
     # symlink dir (Karabiner-Elements removes file-level symlink when modifying config)
