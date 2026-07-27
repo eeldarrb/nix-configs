@@ -28,3 +28,5 @@ export MANPAGER='nvim +Man!'
 
 export _ZO_RESOLVE_SYMLINKS=1
 eval "$(zoxide init zsh --cmd cd)"
+
+eval "$(direnv hook zsh)"
