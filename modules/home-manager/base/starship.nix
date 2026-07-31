@@ -5,10 +5,14 @@
     enable = true;
     settings = {
       add_newline = false;
-      format = "╭─ $directory$git_branch$nix_shell$line_break╰─$character";
+      format = "$directory$git_branch$nix_shell$aws$jobs$line_break╰─$character";
+
+      git_branch = {
+        format = "[$symbol$branch]($style) ";
+      };
 
       nix_shell = {
-        format = "[$symbol]($style)";
+        format = "[$symbol]($style) ";
       };
     };
   };
