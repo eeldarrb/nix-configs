@@ -6,6 +6,7 @@
     ./git.nix
     ./zsh.nix
     ./tmux.nix
+    ./starship.nix
   ];
 
   home.stateVersion = "26.05";

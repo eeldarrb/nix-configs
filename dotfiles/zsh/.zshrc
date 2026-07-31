@@ -1,6 +1,3 @@
-# Show current working directory as command prompt
-PROMPT='%F{1}%1~%f %F{white}❯%f '
-
 # Add binaries to PATH for installed packages
 export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
 export PATH="$HOME/go/bin:$PATH"
@@ -30,3 +27,5 @@ export _ZO_RESOLVE_SYMLINKS=1
 eval "$(zoxide init zsh --cmd cd)"
 
 eval "$(direnv hook zsh)"
+
+eval "$(starship init zsh)"
