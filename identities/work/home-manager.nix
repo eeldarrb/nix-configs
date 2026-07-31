@@ -5,5 +5,6 @@
     awscli2
     codex
     mongodb-compass
+    terraform
   ];
 }
