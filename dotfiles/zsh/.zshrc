@@ -17,10 +17,6 @@ bindkey '^X^E' edit-command-line
 export EDITOR="nvim"
 export VISUAL="nvim"
 
-# Set bindings for Alt + left/right arrow keycodes
-bindkey "\e[1;3D" backward-word
-bindkey "\e[1;3C" forward-word
-
 export MANPAGER='nvim +Man!'
 
 export _ZO_RESOLVE_SYMLINKS=1
