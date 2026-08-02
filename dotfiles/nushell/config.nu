@@ -2,6 +2,17 @@ use std/util "path add"
 
 $env.config.show_banner = false
 
+$env.config.abbreviations = {
+  lg: "lazygit"
+  cl: "clear"
+  t: "tmux"
+  ta: "tmux a -t"
+  tl: "tmux ls"
+  j: "just"
+  ns: "nix shell"
+}
+
+
 $env.EDITOR = "nvim"
 $env.VISUAL = "nvim"
 $env.MANPAGER = "nvim +Man!"
