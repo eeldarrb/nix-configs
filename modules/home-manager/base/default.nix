@@ -5,6 +5,8 @@
     ./packages.nix
     ./git.nix
     ./zsh.nix
+    ./nushell.nix
+    ./zoxide.nix
     ./tmux.nix
     ./starship.nix
   ];
