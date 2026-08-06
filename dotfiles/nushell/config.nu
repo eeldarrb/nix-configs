@@ -10,6 +10,7 @@ $env.config.abbreviations = {
   tl: "tmux ls"
   j: "just"
   ns: "nix shell"
+  nt: "nix flake init -t github:the-nix-way/dev-templates#"
 }
 
 
